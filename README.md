@@ -1,3 +1,3 @@
 # terraform-github-actions
 
-Repo to implement Terraform on AWS with pull request
+Repo to implement Terraform with pull request
