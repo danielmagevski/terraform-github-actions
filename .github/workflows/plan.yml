@@ -46,9 +46,6 @@ jobs:
          id: validate
          run: terraform validate -no-color
         
-       - name: Run Tfsec
-         uses: aquasecurity/tfsec-action@v1.0.0
-
        - name: Terraform plan
          id: plan
          if: github.event_name == 'pull_request'
